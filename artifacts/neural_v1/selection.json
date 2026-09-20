@@ -1,0 +1,37 @@
+{
+  "winner": "checkpoint_512",
+  "reports": {
+    "baseline": {
+      "dense_recall50": 0.2627083333333333,
+      "dense_recall200": 0.4420833333333333,
+      "dense_recall500": 0.5854166666666667,
+      "delta200": 0.0,
+      "paired_ci95_delta200": [
+        0.0,
+        0.0
+      ]
+    },
+    "checkpoint_128": {
+      "dense_recall50": 0.3758333333333333,
+      "dense_recall200": 0.5827083333333334,
+      "dense_recall500": 0.7225,
+      "delta200": 0.140625,
+      "paired_ci95_delta200": [
+        0.11020833333333332,
+        0.170625
+      ]
+    },
+    "checkpoint_512": {
+      "dense_recall50": 0.38520833333333326,
+      "dense_recall200": 0.5891666666666666,
+      "dense_recall500": 0.73,
+      "delta200": 0.14708333333333334,
+      "paired_ci95_delta200": [
+        0.11582812499999999,
+        0.178125
+      ]
+    }
+  },
+  "warning": "Dense retrieval diagnostic on reused dev, not final hybrid Recall@50 or hidden score",
+  "next_step": "Evaluate new score inside v3 pipeline only if dense diagnostic improves"
+}

@@ -1,0 +1,41 @@
+{
+  "base_model": "intfloat/multilingual-e5-small",
+  "base_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "checkpoint": "512 training steps",
+  "format": "absolute values for parameters changed during query-tower fine-tuning",
+  "unchanged_parameters": "input embeddings and pooler are loaded from the pinned base model",
+  "changed_keys": 192,
+  "changed_bytes": 85174272,
+  "shards": [
+    {
+      "file": "adapter-00001-of-00005.safetensors",
+      "bytes": 18935136,
+      "sha256": "8ec183bf2aa45c245b03423a6ef77b41fd3a9e2eafdff0534f8b5eaaf72e4259",
+      "keys": 44
+    },
+    {
+      "file": "adapter-00002-of-00005.safetensors",
+      "bytes": 18933832,
+      "sha256": "8071e64e6efaf9cc581d3d3641207382944057539c8575164e3829302f037971",
+      "keys": 46
+    },
+    {
+      "file": "adapter-00003-of-00005.safetensors",
+      "bytes": 19521376,
+      "sha256": "87596f0dc326695277acf64d18330ccb7a982faeb0afc0c18fd2571b9213d7a7",
+      "keys": 40
+    },
+    {
+      "file": "adapter-00004-of-00005.safetensors",
+      "bytes": 18343544,
+      "sha256": "398e1055c7e714907af64ff376e0b59391f03b4f895a4e46d97c7279ea06df3b",
+      "keys": 42
+    },
+    {
+      "file": "adapter-00005-of-00005.safetensors",
+      "bytes": 9464256,
+      "sha256": "d9ff3738fa6326b66bd341bdc5c78f2727b5d634fa66ad45872d23b8a5d2c2ab",
+      "keys": 20
+    }
+  ]
+}

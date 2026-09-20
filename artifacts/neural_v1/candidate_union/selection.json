@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "recall50": 0.9458333333333333,
+    "no_filters": 0.9519774011299436,
+    "with_filters": 0.9409566517189836,
+    "cold": 0.9387254901960783,
+    "warm": 0.9609375,
+    "unseen_positive": 0.9280223619846262,
+    "seen_positive": 0.9721362229102167
+  },
+  "candidate": {
+    "recall50": 0.9508333333333333,
+    "no_filters": 0.96045197740113,
+    "with_filters": 0.9431988041853513,
+    "cold": 0.946078431372549,
+    "warm": 0.9609375,
+    "unseen_positive": 0.9322152341020266,
+    "seen_positive": 0.978328173374613
+  },
+  "delta": 0.005,
+  "paired_ci95": [
+    -0.00125,
+    0.0125
+  ],
+  "improved": 6,
+  "worsened": 2,
+  "winner": "neural_union",
+  "candidate_recall": {
+    "baseline": 0.97125,
+    "union": 0.98125
+  }
+}

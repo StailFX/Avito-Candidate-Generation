@@ -1,0 +1,58 @@
+[
+  {
+    "query": "машина в аренду грузовая",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": [
+      {
+        "item_id": "ce3600987b07826f",
+        "title": "Аренда авто Газ Sobol NN"
+      }
+    ]
+  },
+  {
+    "query": "испанский язык",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": []
+  },
+  {
+    "query": "раскопка ямы",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": [
+      {
+        "item_id": "92d2ac25cf5224b0",
+        "title": "Разнорабочий"
+      }
+    ]
+  },
+  {
+    "query": "ютуб адсенс",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": []
+  },
+  {
+    "query": "культиватор",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": [
+      {
+        "item_id": "b747906cec19b19c",
+        "title": "Вспашка земли, целины. Газон под ключ"
+      }
+    ]
+  },
+  {
+    "query": "удаление растяжек",
+    "old_recall": 0.0,
+    "new_recall": 1.0,
+    "new_gold_in_pool": [
+      {
+        "item_id": "0544a619fecc760d",
+        "title": "Избавьтесь от целлюлита с карбокситерапией"
+      }
+    ]
+  }
+]

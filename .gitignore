@@ -1,0 +1,23 @@
+# Исходные данные (не включены в репозиторий)
+data/*.parquet
+
+# Модель E5 (скачивается из HuggingFace)
+models/multilingual-e5-small/
+
+# Кеши воспроизведения
+artifacts/text_index.joblib
+artifacts/reproduce/*.npy
+artifacts/reproduce/*.json
+artifacts/reproduce/semantic_context/*.npy
+artifacts/reproduce/semantic_context/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

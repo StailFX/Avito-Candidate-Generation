@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "recall50": 0.9420833333333334,
+    "no_filters": 0.928,
+    "with_filters": 0.9521428571428572,
+    "cold": 0.9411407766990292,
+    "warm": 0.9441489361702128,
+    "unseen_positive": 0.9217638691322901,
+    "seen_positive": 0.9708249496981891
+  },
+  "candidate": {
+    "recall50": 0.9468055555555556,
+    "no_filters": 0.9353333333333333,
+    "with_filters": 0.955,
+    "cold": 0.9455906148867315,
+    "warm": 0.949468085106383,
+    "unseen_positive": 0.9269796111901376,
+    "seen_positive": 0.9748490945674044
+  },
+  "delta": 0.004722222222222221,
+  "paired_ci95": [
+    -0.0016666666666666668,
+    0.011388888888888888
+  ],
+  "improved": 11,
+  "worsened": 6,
+  "interpretation": "Alternate out-of-fold prior fit queries, not untouched test"
+}
